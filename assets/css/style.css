@@ -4,6 +4,7 @@ img#backgroundPic{
     width: 100%;
     height: auto;
     position: fixed;
+    z-index: -1;
     top: 0;
     left: 0;
 }
@@ -16,14 +17,26 @@ img#backgroundPic{
 }
 
 .question{
+    position: relative;
     color: white;
+    font-size: 45px;
     width: 100%;
     font-weight: bold;
-    position: absolute;
     text-align: center;
+    top: 300px;
 
 }
 
+.answers {
+    position: relative;
+    color: white;
+    font-size: 25px;
+    width: 100%;
+    /* font-weight: bold; */
+    text-align: center;
+    top: 300px;
+
+}
 #mainTitle{
     color: white;
     font-weight: bold;
@@ -45,7 +58,7 @@ img#backgroundPic{
     top:1000px;
 } */
 
-#q1 {
+/* #q1 {
     top: 400px;
 }
 
@@ -63,4 +76,4 @@ img#backgroundPic{
 
 #q5 {
     top: 800px;
-}
+} */
