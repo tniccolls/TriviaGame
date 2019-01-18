@@ -161,8 +161,6 @@ const myQuestions = [allQuestions[firstQuestionChoice], allQuestions[secondQuest
 
   submitButton.addEventListener("click", showResults);
 
-
-
 var timeLeft = 30;
 var clock = setInterval(function() {
 
