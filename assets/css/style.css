@@ -53,6 +53,20 @@ img#backgroundPic{
     margin-right: auto;
 
 }
+
+#timer {
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 44%;
+}
+
+#submit {
+    position: relative;
+    top:350px;
+    left: 44%;
+}
 /* 
 #questionDiv {
     top:1000px;
