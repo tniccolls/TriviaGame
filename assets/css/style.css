@@ -1,3 +1,66 @@
-#main{
-    background-color: aqua;
+img#backgroundPic{
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    img#backgroundPic{
+        left: 50%;
+        margin-left: -512px;
+    }
+}
+
+.question{
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+
+}
+
+#mainTitle{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 44%;
+    font-size: 40px;
+}
+
+#titlePic {
+    width: 300px;
+    height: 168px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/* 
+#questionDiv {
+    top:1000px;
+} */
+
+#q1 {
+    top: 400px;
+}
+
+#q2 {
+    top: 500px;
+}
+
+#q3 {
+    top: 600px;
+}
+
+#q4 {
+    top: 700px;
+}
+
+#q5 {
+    top: 800px;
 }
